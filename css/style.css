@@ -1,5 +1,9 @@
 .body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+:root {
   color: #434455;
   background-color: #ffffff;
 }
@@ -11,8 +15,45 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  
 }
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.list :hover {
+  color: #404bbf;
+}
+.list :focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+  list-style: none;
+}
+
+.mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .nav-bar {
   font-family: "Roboto";
   font-style: normal;
@@ -48,6 +89,8 @@
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.02em;
+  font-family: "Roboto";
+  font-style: normal;
 }
 .main-page-button {
   background: #4d5ae5;
