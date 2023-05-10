@@ -1,45 +1,96 @@
-body {
-    margin: 0;
-    height: 100%;
-    font-family: sans-serif;
+.body {
+  font-family: "Roboto";
+  color: #434455;
+  background-color: #ffffff;
 }
+.Logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  
+}
+.nav-bar {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.nav-line {
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  width: 500px;
+}
+
 .main-page-background {
-    background: #2E2F42
-        
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  background: #2e2f42;
 }
 
 .main-page-title-1 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-    width: 826px;
-    height: 100px;
-    color: #FFFFFF;
-    text-align: center;
-    letter-spacing: 0.02em;
-    
-  }
-  .main-page-button {
-    background: #4D5AE5;
-    color: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    cursor: pointer;}
+  margin-top: 260;
+  margin-bottom: 292;
+  margin-left: 472;
+  margin-right: 472;
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.main-page-button {
+  background: #4d5ae5;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  flex-direction: row;
+  padding: 16px 32px;
+  gap: 10px;
+  cursor: pointer;
+  align-items: flex-start;
+}
 
-    .main-page-button :hover, .main-page-button :focus {
-        color: #404BBF;
-    }
+.main-page-button:hover,
+.main-page-button:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
 
-    .guide {
-        padding-top: 48px;
-        padding-bottom: 100px;
-        text-align: center;
-    }
+.solutions-guide {
+  padding-top: 48px;
+  padding-bottom: 100px;
+  text-align: center;
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.solutions-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+.solutions-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+}
