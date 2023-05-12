@@ -7,7 +7,7 @@
   color: #434455;
   background-color: #ffffff;
 }
-.Logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -75,15 +75,14 @@
   width: 500px;
 }
 
-.main-page-background {
+.main-page {
   position: absolute;
-
   left: 0px;
   top: 72px;
   background: #2e2f42;
 }
 
-.main-page-title-1 {
+.main-page-title {
   margin-top: 260;
   margin-bottom: 292;
   margin-left: 472;
@@ -159,6 +158,10 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+.Our-Team {
+  background-color: #f4f4fd;
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -195,4 +198,47 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.button-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.button-portfolio :hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.button-portfolio :focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.services {
+  text-decoration: none;
+}
+
+.services-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.services-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
