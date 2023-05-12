@@ -131,13 +131,7 @@
 }
 
 .solutions-guide {
-  padding-top: 48px;
-  padding-bottom: 100px;
-  text-align: center;
-  width: 1170px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
+  list-style: none;
 }
 
 .solutions-text {
@@ -159,9 +153,14 @@
   color: #2e2f42;
 }
 
-.Our-Team {
+.our-team {
   background-color: #f4f4fd;
 }
+
+.team-members {
+  list-style: none;
+}
+
 .team-title {
   font-size: 36px;
   line-height: 1.11;
