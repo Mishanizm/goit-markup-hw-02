@@ -20,8 +20,15 @@
   text-decoration: none;
 }
 
-.logo-part {
+.link :hover .link :focus {
+  color: #404bbf;
+}
+
+.logo-upper {
   color: #2e2f42;
+}
+.logo-lower {
+  color: #f4f4fd;
 }
 
 .list {
@@ -68,12 +75,6 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-line {
-  justify-content: space-between;
-  margin: auto;
-  display: flex;
-  width: 500px;
-}
 
 .main-page {
   position: absolute;
@@ -114,7 +115,10 @@
   align-items: flex-start;
 }
 
-.main-page-button:hover,
+.main-page-button:hover {
+  background: #404bbf;
+  color: #ffffff;
+}
 .main-page-button:focus {
   background: #404bbf;
   color: #ffffff;
@@ -155,6 +159,9 @@
 
 .our-team {
   background-color: #f4f4fd;
+}
+.team {
+  background-color: #ffffff;
 }
 
 .team-members {
@@ -209,11 +216,11 @@
   cursor: pointer;
 }
 
-.button-portfolio :hover {
+.button-portfolio:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
-.button-portfolio :focus {
+.button-portfolio:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -240,7 +247,4 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.logo-footer {
-  color: #f4f4fd;
 }
