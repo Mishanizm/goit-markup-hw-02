@@ -23,11 +23,11 @@
   text-decoration: none;
 }
 
-.link :hover {
+.link:hover {
   color: #404bbf;
 }
 
-.link :focus {
+.link:focus {
   color: #404bbf;
 }
 
@@ -47,11 +47,14 @@
   color: #2e2f42;
 }
 
-.list :hover {
+.list:hover {
   color: #404bbf;
 }
-.list :focus {
+.list:focus {
   color: #404bbf;
+}
+.nav-bar {
+  color: #2e2f42;
 }
 
 .address {
@@ -123,6 +126,8 @@
   color: #ffffff;
 }
 
+/* -----------section 2---------- */
+
 .solutions-title {
   font-family: "Roboto";
   font-style: normal;
@@ -147,6 +152,7 @@
   color: #434455;
 }
 
+/* -----------section 3---------- */
 .offer {
   font-size: 36px;
   line-height: 1.11;
@@ -155,6 +161,8 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+/* -----------section 4---------- */
 
 .our-team {
   background-color: #f4f4fd;
@@ -194,6 +202,9 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* -----------footer---------- */
+
 .footer {
   background-color: #2e2f42;
   font-family: "Raleway", sans-serif;
@@ -226,6 +237,8 @@
   color: #ffffff;
   background-color: #404bbf;
 }
+
+/* -----------services---------- */
 
 .services {
   list-style: none;
