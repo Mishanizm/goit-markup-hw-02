@@ -23,14 +23,21 @@ body {
   text-decoration: none;
 }
 
-.link:hover {
+.mail:hover {
   color: #404bbf;
 }
 
-.link:focus {
+.mail:focus {
   color: #404bbf;
 }
 
+.tel:hover {
+  color: #404bbf;
+}
+
+.tel:focus {
+  color: #404bbf;
+}
 .logo-upper {
   color: #2e2f42;
 }
