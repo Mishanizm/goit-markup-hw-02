@@ -56,6 +56,13 @@ body {
 .nav-bar {
   color: #2e2f42;
 }
+.nav-bar:hover {
+  color: #404bbf;
+}
+
+.nav-bar:focus {
+  color: #404bbf;
+}
 
 .address {
   font-style: normal;
