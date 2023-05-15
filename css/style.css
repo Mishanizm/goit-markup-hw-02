@@ -19,15 +19,16 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.link {
-  text-decoration: none;
-}
 
 .logo-upper {
   color: #2e2f42;
 }
 .logo-lower {
   color: #f4f4fd;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .list {
