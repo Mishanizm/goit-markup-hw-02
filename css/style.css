@@ -64,7 +64,6 @@ body {
 .contact:hover {
   color: #404bbf;
 }
-
 .contact:focus {
   color: #404bbf;
 }
@@ -72,9 +71,9 @@ body {
 /* -----------main---------- */
 
 .main-page {
-  position: absolute;
+  /* position: absolute;
   left: 0px;
-  top: 72px;
+  top: 72px; */
   background: #2e2f42;
 }
 
