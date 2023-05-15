@@ -86,18 +86,14 @@ body {
 }
 
 .main-page-title {
-  margin-top: 260;
-  margin-bottom: 292;
-  margin-left: 472;
-  margin-right: 472;
-  font-weight: 700;
-  font-size: 56px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
   font-family: "Roboto";
   font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .main-page-button {
   font-family: "Roboto", sans-serif;
