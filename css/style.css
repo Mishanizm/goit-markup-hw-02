@@ -23,14 +23,6 @@ body {
   text-decoration: none;
 }
 
-.contact:hover {
-  color: #404bbf;
-}
-
-.contact:focus {
-  color: #404bbf;
-}
-
 .logo-upper {
   color: #2e2f42;
 }
@@ -47,12 +39,12 @@ body {
   color: #2e2f42;
 }
 
-.list:hover {
+/* .list:hover {
   color: #404bbf;
 }
 .list:focus {
   color: #404bbf;
-}
+} */
 .nav-bar {
   color: #2e2f42;
 }
@@ -74,6 +66,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.contact:hover {
+  color: #404bbf;
+}
+
+.contact:focus {
+  color: #404bbf;
 }
 
 /* -----------main---------- */
